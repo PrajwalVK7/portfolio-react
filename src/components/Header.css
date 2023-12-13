@@ -1,0 +1,49 @@
+.header-container{
+  position: fixed;
+  width: 100%;
+  background: transparent;
+  z-index: 10000;
+  margin-top: 3rem;
+}
+  .menu_link {
+    color: #000000;
+    line-height: 1;
+    position: relative;
+  }
+  
+  .menu_link::before {
+    content: '';
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #000000;
+    position: absolute;
+    bottom: -.2rem;
+    left: 0;
+    transition: width .4s;
+  }
+  
+  .menu_link:hover::before {
+    width: 100%;
+  }
+  .nav-link{
+    text-decoration: none;
+
+  }
+  #toggle-icon{
+    color: rgb(22, 9, 9);
+    border: none;
+  }
+  #toggle-icon:hover{
+color: #e61111;
+  }
+
+  #nav-box{
+    background-color: rgb(4, 78, 78);
+    opacity: 0.9;
+  }
+.navbar {
+  border-radius:10px ;
+
+  background-color: transparent !important;
+}
