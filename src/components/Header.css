@@ -4,6 +4,7 @@
   background: transparent;
   z-index: 10000;
   margin-top: 3rem;
+  color:#5C5470;
 }
   .menu_link {
     color: #000000;
@@ -39,7 +40,8 @@ color: #e61111;
   }
 
   #nav-box{
-    background-color: #1B4242;
+    background-color: #5C5470;
+    color:#000000;
     opacity: 0.9;
   }
 .navbar {

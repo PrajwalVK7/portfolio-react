@@ -5,6 +5,8 @@ import animationData from "../assets/Animation - 1702307895087.json"
 import Scroll from "../assets/scrollDown.json"
 import Skill from '../components/About/Skill';
 import './About.css'
+import Button from '@mui/material-next/Button';
+import Specials from '../components/About/Specials';
 
 function About() {
   // const profileRef = useRef <LottieRefCurrentProps> (null)
@@ -28,71 +30,73 @@ function About() {
                   Web Developer</h2>
                 <div className='text-center'>
                   <div className='d-flex justify-content-center align-items-center'>
-                    <Lottie style={{ width: '18rem' }}
+                    <Lottie style={{ width: '21rem' }}
                       animationData={animationData} />
                   </div>
-                  <div className='d-flex justify-content-evenly align-items-center'>
-                    <button>Resume</button>
-                    <button>Hire Me</button>
+                  <div className='d-flex justify-content-evenly align-items-center mb-2 mb-3'>
+                    <Button color="secondary" variant="filled" size="large">Resume</Button>
+                    <Button color="secondary" variant="filled" size="large">Hire Me</Button>
+                  </div>
+                  <div className='d-md-none d-flex justify-content-center align-items-center mb-5 mt-5'>
+                    <Row className='justify-content-center'>
+                      <Col xs={12} className='text-center mt-3'>
+                        <Lottie
+                          style={{
+                            width: '2rem',
+                            cursor: 'pointer',
+                            backgroundColor: 'white',
+                            borderRadius: '100%',
+                          }}
+                          animationData={Scroll}
+                          onClick={scrollToSkills}
+                          color='white'
+                        />
+                      </Col>
+                    </Row>
                   </div>
                 </div>
               </div>
             </Col>
             <Col lg={7} md={7}>
-              <div className="main mt-5 intro">
+              <div className="main mt-5 mb-5 intro p-2">
                 <ul className='mb-3' style={{ textDecoration: 'none', listStyle: 'none' }}>
                   <li className='mb-3' >-Revamp your business with a touch of innovation! .</li>
-                  <li className='mb-3' >-I specialize in creating captivating digital experiences.</li>
                   <li className='mb-3' >-From crafting immersive websites to optimizing user interaction, <br /> I turn visions into vibrant realities that resonate and engage</li>
                   <li><div>
-                    <h5 className='text-end'>Based In : Kerala, India</h5>
+                    <h5 className='text-center'>Based In : Kerala, India</h5>
                   </div></li>
                 </ul>
-
-
               </div>
             </Col>
-
           </Row>
-          {/* <div className='d-flex justify-content-center align-items-center'>
-            <Lottie
-              style={{ width: '2rem', cursor: 'pointer', backgroundColor: 'white', borderRadius: '100%', }}
-              animationData={Scroll}
-              onClick={scrollToSkills}
-              color='white'
-
-            />
-          </div> */}
         </Container>
       </section>
       <section style={{ height: '2rem' }}>
 
       </section>
       <section id="skills" className='mt-5' ref={skillsRef}>
-        <div className="">
+        <div className="mb-5 mt-3">
           <Container>
             <Row>
-              <Col lg={3}></Col>
-              <Col lg={6}>
+              <Col lg={2}></Col>
+              <Col lg={8}>
                 <div className='text-center skills'>
                   <h5>A PROBLEM IS A CHANCE FOR YOU TO DO YOUR BEST.</h5>
-                  <h1 className='mt-3 mb-3 fw-5'>WHAT I DO</h1>
-                  <p className='mt-4 mb-3'><h5>My primary expertise lies in front-end development</h5> <br />
-                    <h6 className='p-1'> Proficient in HTML, CSS, and JavaScript,
-                      I specialize in crafting small to medium web applications using React, Angular, Node.js, Express, and MongoDB for comprehensive development solutions.
-                      I excel in implementing dynamic features, creating immersive animations,
-                      and coding interactive layouts, ensuring seamless and engaging user experiences.</h6></p>
                 </div>
               </Col>
-              <Col lg={3}></Col>
+              <Col lg={2}></Col>
             </Row>
-            <Row>
-              <Col><Skill />
-              </Col>
-            </Row>
+
           </Container>
         </div>
       </section>
+      <div className='text-center container d-flex justify-content-center'>
+        <Specials />
+      </div>
+      <div className='container mt-5 mb-5'>
+        <h2 className='text-center'>Technologies and Tools</h2>
+        <Skill/>
+      </div>
     </div>
   );
 }

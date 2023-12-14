@@ -1,14 +1,19 @@
-.card{
-    background-color: #5C8374;
-    width: 8rem;
-    height: 8rem;
+.skill-card{
+    background-color: #1B4242;
+    width: 10rem;
+    height: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: aqua;
+    /* box-shadow: 0px 14px 49px -29px rgb(248, 245, 245); */
+    border: 1pt solid red;
+    border-radius: 100%;
 }
-img{
-    width: 6rem;
+img {
+    width: 7rem;
 }
-svg{
+
+svg {
     width: 5rem;
 }

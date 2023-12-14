@@ -1,0 +1,13 @@
+.special-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 15rem;
+}
+.special-row col{
+    width: 100%;
+    margin-right: 10px;
+
+}

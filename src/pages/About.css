@@ -1,8 +1,15 @@
+
+/* .main{
+    background: url('../assets/About/stacked-steps-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 .intro {
     font-weight: 600;
     width: 100%;
-    background-color: #750E21;
+
 }
+
 
 .intro ul {
     width: 100%;
@@ -14,10 +21,13 @@
     width: 100%;
     font-size: 3rem;
 }
+.skills{
+    width: 100%;
+}
 
 .skills h1 {
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .skills h5 {
@@ -31,6 +41,12 @@ p h5 {
 h6 {
     font-weight: 500;
     width: 100%;
-    font-size: 1rem;
+    font-size: 20px;
     letter-spacing: 1px;
 }
+@media (max-width: 767px) {
+    .scroll-mobile {
+      display: block; 
+    }
+  }
+  
