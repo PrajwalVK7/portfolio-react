@@ -1,8 +1,14 @@
 .card{
-    background-color: aqua;
+    background-color: #5C8374;
     width: 8rem;
     height: 8rem;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+img{
+    width: 6rem;
+}
+svg{
+    width: 5rem;
 }

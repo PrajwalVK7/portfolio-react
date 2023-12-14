@@ -1,4 +1,7 @@
 *{
     margin: 0;
-    background-color: black;
+}
+.main{
+    background-color: #191919;
+    color: #BED754;
 }

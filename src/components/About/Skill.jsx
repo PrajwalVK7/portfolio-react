@@ -19,7 +19,7 @@ function Skill() {
                 </Grid>
                 <Grid xs={4} lg={2}>
                     <Card className='card'>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 256 256" fill="none" id="my-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 256 256" fill="none" id="my-svg">
                             <defs>
                                 <linearGradient id="gradient1">
                                     <stop class="stop1" offset="0%" stop-color="#8f66ff"></stop>
@@ -35,7 +35,7 @@ function Skill() {
                 </Grid>
                 <Grid xs={4} lg={2}>
                     <div className='card' >
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 256 256" fill="none" id="my-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 256 256" fill="none" id="my-svg">
                             <defs>
                                 <linearGradient id="gradient1">
                                     <stop class="stop1" offset="0%" stop-color="#8f66ff"></stop>
@@ -67,7 +67,7 @@ function Skill() {
                 </Grid>
                 <Grid xs={4} lg={2}>
                     <Card >
-                        <FaPython />
+                        <FaPython style={{ fontSize: '5rem' }} />
                     </Card>
                 </Grid>
                 <Grid xs={4} lg={2}>
@@ -77,7 +77,7 @@ function Skill() {
                 </Grid>
                 <Grid xs={4} lg={2}>
                     <Card >
-                        <AiOutlineConsoleSql />
+                        <AiOutlineConsoleSql style={{ fontSize: '5rem' }} />
                     </Card>
                 </Grid>
                 <Grid xs={4} lg={2}>
@@ -86,12 +86,12 @@ function Skill() {
                 </Grid>
                 <Grid xs={4} lg={2}>
                     <Card >
-                        <FaGitAlt />
+                        <FaGitAlt style={{ fontSize: '5rem' }}/>
                     </Card>
                 </Grid>
                 <Grid xs={4} lg={2}>
                     <Card >
-                        <PiFramerLogoFill />
+                        <PiFramerLogoFill style={{ fontSize: '5rem' }} />
                     </Card>
                 </Grid>
 
