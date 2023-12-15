@@ -12,8 +12,8 @@ import team from '../../assets/About/team.png'
 function Specials() {
     return (
         <>
-            <Row className="g-5 special-row">
-                <Col lg={4} md={2} >
+            <Row className="p-3 special-row g-3">
+                <Col lg={4} md={2} className='' >
                     <Card className='special-card '>
                         <Card.Img variant="top" className='img-fluid w-25' src={front} />
                         <Card.Body>

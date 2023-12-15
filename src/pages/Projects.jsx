@@ -1,10 +1,15 @@
 import React from 'react'
 import "./Project.css"
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
+import { Row,Col } from 'react-bootstrap';
 function Projects() {
   return (
-    <div style={{width:'100vw',height:'100vh'}}>
-      
-    </div> 
+   <>
+   <h1>Portfolio & PreviousProjects</h1>
+    
+
+   </>
   )
 }
 

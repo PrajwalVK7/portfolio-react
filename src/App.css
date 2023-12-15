@@ -1,7 +1,12 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .main{
     background-color: #000000;
     color: #F0ECE5;
+}
+div{
+    border: 1pt solid red;
 }

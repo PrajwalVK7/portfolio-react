@@ -1,5 +1,5 @@
 .special-card{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,6 +8,6 @@
 }
 .special-row col{
     width: 100%;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 
 }
