@@ -2,7 +2,6 @@ import React from "react";
 import "./Header.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 const Header = () => {
@@ -12,6 +11,7 @@ const Header = () => {
         <nav>
             <Link to='/'>
                 <a
+                    href="/"
                     onClick={() => setActiveNav("/")}
                     className={activeNav === "/" ? "active" : ""}
                 >
@@ -21,8 +21,8 @@ const Header = () => {
 
             </Link>
             <Link to='/about'>
-                <a 
-
+                <a
+                    href="/about"
                     onClick={() => setActiveNav("/about")}
                     className={activeNav === "/about" ? "active" : ""}
                 >
@@ -31,7 +31,7 @@ const Header = () => {
             </Link>
             <Link to='/projects'>
                 <a
-
+                    href="/projects"
                     onClick={() => setActiveNav("/projects")}
                     className={activeNav === "/projects" ? "active" : ""}
                 >
@@ -41,7 +41,7 @@ const Header = () => {
 
             <Link to='/contact'>
                 <a
-
+                    href="/contact"
                     onClick={() => setActiveNav("/contact")}
                     className={activeNav === "/contact" ? "active" : ""}
                 >
