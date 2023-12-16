@@ -4,11 +4,13 @@ import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Container } from "@mui/material";
 const Header = () => {
     const [activeNav, setActiveNav] = useState("/");
 
     return (
-        <nav>
+        <Container>
+            <nav>
             <Link to='/'>
                 <a
                     href="/"
@@ -49,6 +51,7 @@ const Header = () => {
                 </a>
             </Link>
         </nav>
+        </Container>
     );
 };
 

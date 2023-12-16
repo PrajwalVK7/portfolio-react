@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 } */
-.aws-btn {
+/* .aws-btn {
 
     --slider-height-percentage: 60%;
     --slider-transition-duration: 770ms;
@@ -18,4 +18,20 @@
     --control-bullet-active-color: #d5b1af;
     --loader-bar-color: #851515;
     --loader-bar-height: 6px;
-    }
+    } */
+.card-outer {
+    border-radius: 5px;
+    border-radius:10px 40px 40px 40px;
+    width: 100%;
+
+}
+
+#card{
+    border: 0.2rem solid blue;
+    border-radius:10px 40px 40px 40px;
+}
+
+img{
+    border-radius: 5%;
+    background-color: black;
+}
