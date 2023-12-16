@@ -29,6 +29,7 @@
 #card{
     border: 0.2rem solid blue;
     border-radius:10px 40px 40px 40px;
+    height: 50rem;
 }
 
 img{
