@@ -22,40 +22,40 @@ function Projects() {
       id: 1,
       img: netflix,
       title: 'Netflix UI Clone',
-      git: 'htps',
-      link: 'ss',
+      git: 'https://github.com/PrajwalVK7/Netflix-clone',
+      link: 'https://netflixclonerjs.netlify.app/',
       descr: 'lorem'
     },
     {
       id: 2,
       img: mediaplayer,
       title: 'Media Player',
-      git: 'htps',
-      link: 'ss',
+      git: 'https://github.com/PrajwalVK7/mediaplayer-full',
+      link: '',
       descr: 'lorem'
     },
     {
       id: 3,
       img: restaurent,
       title: 'Restaurent Website Template',
-      git: 'htps',
-      link: 'ss',
+      git: 'https://github.com/PrajwalVK7/Restaurant_website_landing-Page',
+      link: 'https://prajwalvk7.github.io/Restaurant_website_landing-Page/',
       descr: 'lorem'
     },
     {
       id: 4,
       img: travel,
       title: 'Travel Blog Template',
-      git: 'htps',
-      link: 'ss',
+      git: 'https://github.com/PrajwalVK7/travel-blog-webpage',
+      link: 'https://prajwalvk7.github.io/travel-blog-webpage/',
       descr: 'lorem'
     },
     {
       id: 5,
       img: travelTemp,
       title: 'Travel Blog Template',
-      git: 'htps',
-      link: 'ss',
+      git: 'https://github.com/PrajwalVK7/kerala',
+      link: '',
       descr: 'lorem'
     },
   ]
@@ -72,16 +72,17 @@ function Projects() {
           <Row>
             {projects.map((item) => (
               <Col lg={6} className='p-3 mb-2'>
-                <div className=' card-outer pe-3 pb-3 ps-1 pt-1' style={{backgroundColor:'green'}}>
-                  <Card id='card' className='card p-2' style={{ backgroundColor: 'yellow' }}>
+                <div className=' card-outer pe-3 pb-3 ps-1 pt-1' style={{ backgroundColor: 'white' }}>
+                  <Card id='card' className='card p-2' style={{ backgroundColor: 'black' }}>
                     <CardActionArea >
-                      <CardMedia
+                      <CardMedia className='first'
                         component="img"
                         height="300"
                         image={item.img}
                         alt="green iguana"
                       />
-                      <CardContent className='mt-2 mb-2'>
+
+                      <CardContent className='mt-2 mb-2 text-center'>
                         <Typography gutterBottom variant="h5" component="div">
                           {item.title}
                         </Typography>
@@ -89,8 +90,14 @@ function Projects() {
                           {item.descr}
                         </Typography> */}
                         <div className='d-flex justify-content-between align-item-center'>
-                          <h5>{item.git}</h5>
-                          <h5>{item.link}</h5>
+                          {item.git && (
+                            <button onClick={()=>window.open(item.git)} className='btn-icon me-2'><i class="fa-brands fa-github"></i></button>
+                          )
+                          }
+                          {item.link && (
+                            <button onClick={()=>window.open(item.link)} className='btn-icon'><i class="fa-solid fa-globe"></i></button>
+                          )
+                          }
                         </div>
                       </CardContent>
                     </CardActionArea>
