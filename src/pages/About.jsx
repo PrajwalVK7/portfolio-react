@@ -14,7 +14,6 @@ function About() {
 
 
   return (
-
     <Fragment>
       <div style={{ height: '5rem' }}></div>
       <section className='mt-3 mb-5'>

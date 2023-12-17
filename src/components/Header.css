@@ -15,36 +15,38 @@ nav {
   white-space: nowrap;
 }
 
-nav a {
+nav .link {
   background: transparent;
   padding: 0.6rem;
   border-radius: 100%;
   color: var(--color-light);
   font-size: 1.3rem;
+  color: aquamarine;
 }
-nav a:hover {
+nav .link:hover {
     color: aliceblue;
 }
 
-nav a.active {
+nav .link.active {
   background: var(--color-primary);
   color: var(--color-bg);
 }
 
 @media screen and (max-width: 768px) {
   nav {
-    padding: 0.6rem 0; 
+    padding: 0.6rem; 
     /* gap: 0.1rem;  */
     border-radius: 2rem;
-    overflow: auto; 
+    /* overflow: auto;  */
     white-space: nowrap; 
+    width: 19rem;
   }
 
-  nav a {
+  nav .link {
     padding-top: 0.6;
     padding-bottom: 0.6;
     padding-left: 0;
     padding-right: 0;
-    font-size: 0.6rem;
+    font-size: 1.5rem;
   }
 }
