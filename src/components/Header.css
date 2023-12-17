@@ -57,7 +57,7 @@ nav .link.active {
     border-radius: 2rem;
     /* overflow: auto;  */
     white-space: nowrap; 
-    width: 22rem;
+    width: 100%;
   }
 
   nav .link {
