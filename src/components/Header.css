@@ -39,7 +39,7 @@ nav .link.active {
     border-radius: 2rem;
     /* overflow: auto;  */
     white-space: nowrap; 
-    width: 19rem;
+    width: 21rem;
   }
 
   nav .link {
