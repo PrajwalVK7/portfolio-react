@@ -2,7 +2,10 @@
     background: url('../assets/About/stacked-steps-haikei.svg');
     background-repeat: no-repeat;
     background-size: cover;
+
+
 } */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Dancing+Script:wght@400;700&family=Kalnia:wght@100&family=Oswald:wght@200;300;700&family=Roboto:wght@100;400&family=Spectral+SC&display=swap');
 * {
     margin: 0;
     padding: 0;

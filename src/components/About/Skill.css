@@ -5,13 +5,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: aqua;
+    color: 008170;
     /* box-shadow: 0px 14px 49px -29px rgb(248, 245, 245); */
-    border: 1pt solid red;
+    /* border: 1pt solid red; */
     /* border-radius: 100%; */
+    padding: 1rem;
+    border-radius: 30%;
+    box-shadow: #008170 0px 1px 4px, #232D3F 0px 0px 0px 3px;
 }
 img {
-    width: 7rem;
+    width: 5rem;
 }
 
 svg {

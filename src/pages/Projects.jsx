@@ -15,6 +15,9 @@ import travel from '../../src/assets/project/travel-vlog.png';
 import travelTemp from '../../src/assets/project/travel-template.png';
 import mediaplayer from '../../src/assets/project/mediaplayer.png';
 import "./Project.css"
+import { motion } from "framer-motion"
+
+
 function Projects() {
 
   const projects = [
@@ -72,7 +75,15 @@ function Projects() {
           <Row>
             {projects.map((item) => (
               <Col lg={6} className='p-3 mb-2'>
-                <div className=' card-outer pe-3 pb-3 ps-1 pt-1' style={{ backgroundColor: 'white' }}>
+                <motion.div
+                  initial={{
+                    opacity: 0,
+                  }}
+                  whileInView={{
+                    opacity: 1,
+                  }}
+                  viewport={{ once: true }}
+                  className=' card-outer pe-3 pb-3 ps-1 pt-1' style={{ backgroundColor: 'white' }}>
                   <Card id='card' className='card p-2' style={{ backgroundColor: 'black' }}>
                     <CardActionArea >
                       <CardMedia className='first'
@@ -91,18 +102,18 @@ function Projects() {
                         </Typography> */}
                         <div className='d-flex justify-content-between align-item-center'>
                           {item.git && (
-                            <button onClick={()=>window.open(item.git)} className='btn-icon me-2'><i class="fa-brands fa-github"></i></button>
+                            <button onClick={() => window.open(item.git)} className='btn-icon me-2'><i class="fa-brands fa-github"></i></button>
                           )
                           }
                           {item.link && (
-                            <button onClick={()=>window.open(item.link)} className='btn-icon'><i class="fa-solid fa-globe"></i></button>
+                            <button onClick={() => window.open(item.link)} className='btn-icon'><i class="fa-solid fa-globe"></i></button>
                           )
                           }
                         </div>
                       </CardContent>
                     </CardActionArea>
                   </Card>
-                </div>
+                </motion.div>
               </Col>
             ))
 

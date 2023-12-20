@@ -51,12 +51,12 @@ function Skill() {
                 </Grid>
                 <Grid xs={4} lg={2}>
                     <Card  className='skill-card'>
-                        <img src={Angular} alt="" />
+                        <img className='img-fluid h-100' src={Angular} alt="" />
                     </Card>
                 </Grid>
                 <Grid xs={4} lg={2}>
                     <Card className='skill-card' >
-                        <img src="https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png" className='img-fluid' alt="" />                   </Card>
+                        <img src="https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png" className='img-fluid h-100' alt="" />                   </Card>
                 </Grid>
                 <Grid xs={4} lg={2}>
                     <Card className='skill-card' >
@@ -67,7 +67,7 @@ function Skill() {
                 </Grid>
                 <Grid xs={4} lg={2}>
                     <Card className='skill-card'>
-                        <FaPython style={{ fontSize: '5rem' }} />
+                        <FaPython style={{ fontSize: '5rem' ,color:'skyblue'}} />
                     </Card>
                 </Grid>
                 <Grid xs={4} lg={2}>
@@ -77,21 +77,21 @@ function Skill() {
                 </Grid>
                 <Grid xs={4} lg={2}>
                     <Card className='skill-card' >
-                        <AiOutlineConsoleSql style={{ fontSize: '5rem' }} />
+                        <AiOutlineConsoleSql style={{ fontSize: '5rem',color:'yellow' }} />
                     </Card>
                 </Grid>
                 <Grid xs={4} lg={2}>
                     <Card className='skill-card' >
-                        <img className='img-fluid' src="https://discoverthreejs.com/images/app-logos/forum.png" alt="" />                    </Card>
+                        <img className='img-fluid h-100' src="https://discoverthreejs.com/images/app-logos/forum.png" alt="" />                    </Card>
                 </Grid>
                 <Grid xs={4} lg={2}>
                     <Card className='skill-card' >
-                        <FaGitAlt style={{ fontSize: '5rem' }}/>
+                        <FaGitAlt style={{ fontSize: '5rem',color:'red' }}/>
                     </Card>
                 </Grid>
                 <Grid xs={4} lg={2}>
                     <Card className='skill-card'>
-                        <PiFramerLogoFill style={{ fontSize: '5rem' }} />
+                        <PiFramerLogoFill style={{ fontSize: '5rem',color:'blueviolet' }} />
                     </Card>
                 </Grid>
 

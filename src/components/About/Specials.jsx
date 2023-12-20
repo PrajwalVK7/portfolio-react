@@ -10,15 +10,16 @@ import coding from '../../assets/About/coding.png'
 import self from '../../assets/About/self-service.png'
 import team from '../../assets/About/team.png'
 function Specials() {
+    
     return (
         <>
-            <Row className="p-3 special-row g-3">
+            <Row className="p-4 special-row g-3">
                 <Col lg={4} md={2} className='' >
-                    <Card className='special-card '>
+                    <Card className='special-card ' 
+                        viewport={{ once: true }} >
                         <Card.Img variant="top" className='img-fluid w-25' src={front} />
                         <Card.Body>
                             <Card.Title>Front-end</Card.Title>
-
                             <Card.Text>
                                 <p>My main focus.I love Front end Development.Responsive & animated layouts with performance optimization
                                 </p>

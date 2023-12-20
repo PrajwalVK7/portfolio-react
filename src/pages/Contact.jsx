@@ -9,7 +9,7 @@ function Contact() {
   return (
     <>
       <div style={{ height: '8rem' }}></div>
-      <section>
+    <section>
         <Container>
           <Row>
             <Col lg={6} className='m-auto'>
