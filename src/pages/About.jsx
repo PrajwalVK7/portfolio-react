@@ -41,7 +41,7 @@ function About() {
                     <Lottie style={{ width: '21rem' }} animationData={animationData} />
                   </div>
                   <div className='d-flex justify-content-evenly align-items-center mb-2 mb-3 p-2'>
-                    <a href="https://drive.google.com/file/d/1d4so8hoQ-ufiUwTWqNSh8XVoTuPeqS_X/view?usp=drive_link" target='_blank' style={{ textDecoration: 'none' }}><Button color="secondary" variant="filled" size="large">Resume</Button></a>
+                    <a href="https://drive.google.com/file/d/1d4so8hoQ-ufiUwTWqNSh8XVoTuPeqS_X/view?usp=drive_link" target='_blank' rel="noreferrer" style={{ textDecoration: 'none' }}><Button color="secondary" variant="filled" size="large">Resume</Button></a>
                     <a href="mailto:prajwalvk98@gmail.com" style={{ textDecoration: 'none' }}><Button color="secondary" variant="filled" size="large">Hire Me</Button></a>                 
                      </div>
                   <div className='d-md-none d-flex justify-content-center flex-column align-items-center mb-5 mt-2 p-2'>

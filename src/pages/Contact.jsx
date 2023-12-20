@@ -18,18 +18,18 @@ function Contact() {
                   What would you do if you had a software expert available at your fingertips? Want to start a new project?
                 </p>
                 <div className='contact-list d-flex justify-content-evenly align-items-center p-4 ' style={{ fontSize: '2rem' }}>
-                  <a href="mailto:prajwalvk98@gmail.com" target="_blank" style={{ textDecoration: 'none', color: 'white' }}><motion.div drag='x' dragConstraints={{ left: 0, right: 5 }} whileHover={{ backgroundColor: 'green', scale: 1.1, transition: { duration: 2 } }}
+                  <a href="mailto:prajwalvk98@gmail.com" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}><motion.div drag='x' dragConstraints={{ left: 0, right: 5 }} whileHover={{ backgroundColor: 'green', scale: 1.1, transition: { duration: 2 } }}
                     onHoverStart={e => { }} className='ms-2' style={{ backgroundColor: 'red', borderRadius: '50%', width: '4rem', height: '4rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <i className="fa-solid fa-envelope"></i>
                   </motion.div></a>
                   <a href="callto:+919846096699" style={{ textDecoration: 'none', color: 'white' }}><motion.div className='ms-2' drag='x' dragConstraints={{ left: 0, right: 5 }} whileHover={{ backgroundColor: 'green', scale: 1.1, transition: { duration: 2 } }}
                     onHoverStart={e => { }}
                     onHoverEnd={e => { }} style={{ backgroundColor: 'red', borderRadius: '100%', width: '4rem', height: '4rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><i className="fa-solid fa-phone"></i></motion.div></a>
-                  <a href="https://www.linkedin.com/in/prajwalvk023/" target="_blank" style={{ textDecoration: 'none', color: 'white' }}><motion.div drag='x' dragConstraints={{ left: 0, right: 5 }} whileHover={{ backgroundColor: 'green', scale: 1.1, transition: { duration: 2 } }}
+                  <a href="https://www.linkedin.com/in/prajwalvk023/" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}><motion.div drag='x' dragConstraints={{ left: 0, right: 5 }} whileHover={{ backgroundColor: 'green', scale: 1.1, transition: { duration: 2 } }}
                     onHoverStart={e => { }} className='ms-2' style={{ backgroundColor: 'red', borderRadius: '50%', width: '4rem', height: '4rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><i className="fa-brands fa-linkedin"></i></motion.div></a>
-                  <a href="https://github.com/PrajwalVK7" target="_blank" style={{ textDecoration: 'none', color: 'white' }}><motion.div drag='x' dragConstraints={{ left: 0, right: 5 }} whileHover={{ backgroundColor: 'green', scale: 1.1, transition: { duration: 2 } }}
+                  <a href="https://github.com/PrajwalVK7" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}><motion.div drag='x' dragConstraints={{ left: 0, right: 5 }} whileHover={{ backgroundColor: 'green', scale: 1.1, transition: { duration: 2 } }}
                     onHoverStart={e => { }} className='ms-2'  style={{ backgroundColor: 'red', borderRadius: '50%', width: '4rem', height: '4rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><i className="fa-brands fa-github"></i></motion.div></a>
-                  <a href="https://www.instagram.com/prjwlvk/" target="_blank" style={{ textDecoration: 'none', color: 'white' }}> <motion.div drag='x' dragConstraints={{ left: 0, right: 5 }} whileHover={{ backgroundColor: 'green', scale: 1.1, transition: { duration: 2 } }}
+                  <a href="https://www.instagram.com/prjwlvk/" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}> <motion.div drag='x' dragConstraints={{ left: 0, right: 5 }} whileHover={{ backgroundColor: 'green', scale: 1.1, transition: { duration: 2 } }}
                     onHoverStart={e => { }} className='ms-2' style={{ backgroundColor: 'red', borderRadius: '50%', width: '4rem', height: '4rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><i class="fa-brands fa-instagram"></i></motion.div></a>
                 </div>
               </div>
