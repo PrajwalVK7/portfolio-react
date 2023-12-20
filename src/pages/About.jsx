@@ -41,9 +41,9 @@ function About() {
                     <Lottie style={{ width: '21rem' }} animationData={animationData} />
                   </div>
                   <div className='d-flex justify-content-evenly align-items-center mb-2 mb-3 p-2'>
-                    <Button color="secondary" variant="filled" size="large">Resume</Button>
-                    <Button color="secondary" variant="filled" size="large">Hire Me</Button>
-                  </div>
+                    <a href="https://drive.google.com/file/d/1d4so8hoQ-ufiUwTWqNSh8XVoTuPeqS_X/view?usp=drive_link" target='_blank' style={{ textDecoration: 'none' }}><Button color="secondary" variant="filled" size="large">Resume</Button></a>
+                    <a href="mailto:prajwalvk98@gmail.com" style={{ textDecoration: 'none' }}><Button color="secondary" variant="filled" size="large">Hire Me</Button></a>                 
+                     </div>
                   <div className='d-md-none d-flex justify-content-center flex-column align-items-center mb-5 mt-2 p-2'>
                     <Row className='justify-content-center'>
                       <Col xs={8} className='text-center mt-3'>
@@ -65,13 +65,13 @@ function About() {
               </motion.div>
             </Col>
             <Col lg={7} md={7}>
-              <div  className="main mt-5 pt-5 mb-5 intro">
-                <ul className='mb-3 mt-5' style={{ textDecoration: 'none', listStyle: 'none' }}>
-                <li className='mb-3' >Revamp your business with a touch of innovation! .</li> <hr />
-                  <li className='mb-3'>From crafting immersive websites to optimizing user interaction,<br /> I turn visions into vibrant realities that resonate and engage</li> <hr />
-                  <li ><div><h5 className='text-center'>Based In : Kerala, India</h5></div></li>
-                </ul>
-              </div>
+              <motion.div variants={stagger} className="main mt-5 pt-5 mb-5 intro">
+                <motion.ul variants={fadeInUp} className='mb-3 mt-5' style={{ textDecoration: 'none', listStyle: 'none' }}>
+                  <motion.li variants={fadeInUp} className='mb-3' >Revamp your business with a touch of innovation! .</motion.li> <hr />
+                  <motion.li variants={fadeInUp} className='mb-3'>From crafting immersive websites to optimizing user interaction,<br /> I turn visions into vibrant realities that resonate and engage</motion.li> <hr />
+                  <motion.li variants={fadeInUp} ><div><h5 className='text-center'>Based In : Kerala, India</h5></div></motion.li>
+                </motion.ul>
+              </motion.div>
             </Col>
           </Row>
         </Container>
