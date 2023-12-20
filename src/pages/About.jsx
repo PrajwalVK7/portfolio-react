@@ -8,7 +8,6 @@ import Button from '@mui/material-next/Button';
 import Specials from '../components/About/Specials';
 import Skill from '../components/About/Skill';
 import './About.css';
-import Roll from 'react-reveal/Roll';
 
 function About() {
   const fadeInUp = {
@@ -68,7 +67,7 @@ function About() {
             <Col lg={7} md={7}>
               <div  className="main mt-5 pt-5 mb-5 intro">
                 <ul className='mb-3 mt-5' style={{ textDecoration: 'none', listStyle: 'none' }}>
-                <Roll left><li className='mb-3' >Revamp your business with a touch of innovation! .</li></Roll> <hr />
+                <li className='mb-3' >Revamp your business with a touch of innovation! .</li> <hr />
                   <li className='mb-3'>From crafting immersive websites to optimizing user interaction,<br /> I turn visions into vibrant realities that resonate and engage</li> <hr />
                   <li ><div><h5 className='text-center'>Based In : Kerala, India</h5></div></li>
                 </ul>
